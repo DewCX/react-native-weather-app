@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "permissions":["LOCATION"]
     },
     "android": {
       "adaptiveIcon": {
