@@ -1,10 +1,13 @@
 import React from 'react';
 import { View, ScrollView, Image, Text, StyleSheet } from 'react-native';
 
+import FutureForeCast from './FutureForeCast';
+
 const WeatherScroll = () => {
   return (
     <ScrollView horizontal={true} style={styles.scrollView}>
         <CurrentTempEl/>
+        <FutureForeCast />
     </ScrollView>
   )
 }
